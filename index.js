@@ -241,7 +241,7 @@ class CuboidMakerTwo{
     return 'bar';
   }
   
-  /*export default{
+  export default{
     foo,
     summation,
     animalNames,
@@ -254,4 +254,4 @@ class CuboidMakerTwo{
     greeting,
     CuboidMaker,
     CuboidMakerTwo
-  }*/
+  }
