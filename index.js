@@ -17,8 +17,12 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 /*
-
-
+If we hypothetically did not know the scope of the myFunction function and/or the external variable, we can conclude that myFunction 
+is on the same scope as external OR within the child scope where external is declared due to it's ability to successfully console.log it. 
+Unlike the interactions between external variable and myFunction function, the function nestedFunction's ability to interact with the 
+internal variable can be seen in a similar light. However, since we can explicitly see that internal and nestedFunction are declared 
+within the local scope of myFunction, it is clear to see how nestedFunction has access to the internal variable. This can be also further 
+proven by creating another function on the same scope as myFunction and external and attempting to access internal without any success.
 
 */
 
