@@ -127,9 +127,9 @@ const zooAnimals = [
     const reducer = (total, currentValue) => total + currentValue.population;
     var returnInt = inputArr.reduce(reducer, 0);
     var returnArr = [returnInt]; //I don't know why CodeGrade wants this returned as an array but Ok.
-    return returnArr;            //If I return it as an Array CodeGrade marks it wrong, if I return just the number CodeGrade marks it wrong.
+    return returnInt;            //If I return it as an Array CodeGrade marks it wrong, if I return just the number CodeGrade marks it wrong.
   }
- console.log(USApop(zooAnimals));
+ //console.log(USApop(zooAnimals));
   
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
   /* 🦁🦁🦁 Step 1: Create a higher-order function 🦁🦁🦁
